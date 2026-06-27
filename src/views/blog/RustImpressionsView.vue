@@ -77,6 +77,25 @@
                         :displayMode="true" />
                 </ul>
                 <p>These operations are the building blocks for the Gaussian elimination algorithm, which I will implement soon.</p>
+        <h3>To Do</h3>
+        <ul>
+            <li>Implement the Gaussian elimination algorithm</li>
+            <li>Implement determinant calculation
+                <ul>
+                    <li>Implement the determinant calculation using the Gaussian elimination algorithm</li>
+                    <li>Implement the determinant calculation using the Laplace expansion (cofactor expansion)</li>
+                </ul>
+            </li>
+            <li>Implement matrix inversion
+                <ul>
+                    <li>Implement the matrix inversion using the Gaussian elimination algorithm</li>
+                    <li>Implement the matrix inversion using the adjugate matrix and determinant</li>
+                    <li>Implement matrix inversion using the characteristic polynomial (Cayley-Hamilton theorem)</li>
+                </ul>
+            </li>
+            <li>I'll see for more features if I have time and motivation</li>
+            <li>Optimize the code for better performance</li>
+        </ul>
     </main>
 </template>
 

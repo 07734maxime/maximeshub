@@ -18,8 +18,8 @@ import HomeContent from '../components/HomeContent.vue'
         <p>Despite not being active on social media, here are ways to get in touch:</p>
         <ul>
           <li><a href="mailto:e07734maxime@proton.me">Mail-me</a></li>
-          <li><a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-          <li><a href="https://discord.com/users/680737784730091522" target="_blank" rel="noopener noreferrer">Discord</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/32418354892175849324308957643254">GitHub</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://discord.com/users/680737784730091522">Discord</a></li>
         </ul>
   </section>
   </main>
