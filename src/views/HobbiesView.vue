@@ -82,7 +82,7 @@ const albumList = [
 
       <AboutBox>
         <p class="text-sm text-gray-700">
-          You can find my anime list <a class="bg-orange-200 hover:underline" href="https://myanimelist.net/animelist/maxime07734"
+          You can find my anime list <a class="highlight-link" href="https://myanimelist.net/animelist/maxime07734"
             target="_blank" rel="noopener noreferrer">here</a> (even though it's outdated)
         </p>
       </AboutBox>

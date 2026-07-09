@@ -53,7 +53,7 @@
 
         <p class="text-sm text-gray-600">
           You can check out the source code at <a href="https://github.com/07734maxime/my-personal-website" target="_blank"
-            rel="noopener noreferrer" class="bg-orange-300 hover:underline">this page!</a>
+            rel="noopener noreferrer" class="highlight-link">this page!</a>
         </p>
       </DefaultBox>
     </section>

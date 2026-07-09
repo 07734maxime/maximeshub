@@ -25,6 +25,7 @@ html, body, #app {
   @apply h-full
 }
 
+
 body {
   background-color: #f4e3ff; /* light gray background */
   background-image:
@@ -57,3 +58,6 @@ body {
     @apply p-4 rounded-b-lg;
 }
 
+.highlight-link {
+    @apply bg-orange-200 hover:underline
+}
