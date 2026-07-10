@@ -9,7 +9,7 @@
 
         <div :class="reversed ? 'flex-row-reverse' : 'flex-row'" class="cursor-pointer hover:scale-99 duration-150 transition-all m-2 flex gap-4 justify-center lg:justify-around items-center border border-2 p-2 rounded bg-white solid-shadow-3">
             <img :src="favorite.img" :alt="favorite.alt"
-                class="aspect-[3/4] object-cover rounded border border-2 w-full lg:w-1/3" />
+                class="aspect-[3/4] object-cover rounded border border-2 w-1/2 lg:w-1/3" />
             <div class="flex flex-col ">
                 <span class="font-mono">{{ favorite.alt }}</span>
                 <span class="text-sm text-gray-600">{{  favorite.note }}</span>
