@@ -35,5 +35,12 @@ const route = useRoute();
       </ul>
     </section>
 
+    <p class="font-mono text-sm text-gray-600">
+      FYI. This website is still under construction. <a class="highlight-link" href="https://github.com/KaTeX/KaTeX"
+        target="_blank" rel="noopener noreferrer">KaTeX</a> was used for mathematical typesetting. I also do not own the
+      rights to any images used. <a class="highlight-link" href="mailto:07734maxime@proton.me" target="_blank"
+        rel="noopener noreferrer">Contact me</a> for any content removal requests.
+    </p>
+
   </main>
 </template>

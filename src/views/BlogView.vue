@@ -2,6 +2,7 @@
 import { ref } from 'vue';
 import { useRouter,useRoute } from 'vue-router';
 import { computed } from 'vue';
+import UncompleteBox from '@/components/boxes/UncompleteBox.vue';
 const router = useRouter();
 const blogRoutes = ref(router.getRoutes().filter(route => route.path.startsWith("/blog/")));
 const query = ref('');
@@ -52,9 +53,8 @@ const route = useRoute();
           </div>
         </li>
 
-          <li class="select-none text-gray-500 border border-dashed border-2 rounded-tr rounded-bl flex items-center justify-center gap-2 h-32">
-             <span v-if="filteredRoutes.length" class="font-bold font-mono text-lg">More soon!</span>
-             <span v-else class="font-bold font-mono text-lg">No results found</span>
+          <li>
+            <UncompleteBox>{{ filteredRoutes.length ? "More soon!" : "No results found" }}</UncompleteBox>
           </li>
 
       </ul>

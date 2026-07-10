@@ -1,5 +1,5 @@
 <template>
-  <nav class="border border-2 p-1 flex justify-center m-3 bg-violet-300 font-mono text-center solid-shadow-3">
+  <nav class="border border-2 p-1 flex justify-between m-3 bg-violet-300 font-mono text-center solid-shadow-3 gap-4 fixed inset-x-0 bottom-0 lg:top-0 lg:bottom-auto lg:w-3/7 lg:left-1/2 lg:-translate-x-1/2 z-50 ">
 
     <ul class="flex gap-4">
       <li v-for="link in navLinks" :key="link.name" class="relative group">
@@ -11,14 +11,20 @@
       </li>
     </ul>
 
+    <ul v-if="!navLinks.some(l => l.path === route.path)" class="flex gap-4">
+      <li @click="router.go(-1)" class="hover:bg-purple-400 px-1"><i class="fas fa-arrow-left"></i></li>
+      <li class="bg-orange-200 px-1 cursor-pointer">{{ route.name }}</li>
+    </ul>
+
   </nav>
 </template>
 
 
 <script setup>
-import { useRouter } from 'vue-router';
+import { useRouter, useRoute } from 'vue-router';
 
 const router = useRouter();
+const route = useRoute();
 
 const navLinks = router.getRoutes().filter(r => {
   const segments = r.path.split('/').filter(Boolean);

@@ -89,7 +89,7 @@
 
     <AboutBox>
       <p>I've created a page so you can explore the full Japanese alphabet. If you want to learn more,
-      <RouterLink class="highlight-link" to="/stuff/japanese-alphabet">click here</RouterLink></p>
+      <RouterLink class="highlight-link" to="/misc/japanese-alphabet">click here</RouterLink></p>
     </AboutBox>
 
     <SectionTitle>How is learning Japanese?</SectionTitle>
