@@ -11,7 +11,7 @@
       </li>
     </ul>
 
-    <ul v-if="!navLinks.some(l => l.path === route.path)" class="flex gap-4">
+    <ul v-if="!navLinks.some(l => l.path === route.path)" class="hidden lg:flex gap-4">
       <li @click="router.go(-1)" class="hover:bg-purple-400 px-1"><i class="fas fa-arrow-left"></i></li>
       <li class="bg-orange-200 px-1 cursor-pointer">{{ route.name }}</li>
     </ul>
