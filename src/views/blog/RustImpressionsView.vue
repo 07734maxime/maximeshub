@@ -8,12 +8,12 @@
             management and performance. I had to read the doc for a long time to start understanding how it works.
         </p>
 
-        <SectionTitle title="My first Rust project" />
+        <SectionTitle>My first Rust project</SectionTitle>
 
         <p class="font-mono">Implementing a simple linear algebra library, including: vector spaces, linear
             independence, rank theorem, row echeclon form, matrix inversion...</p>
 
-        <SectionTitle title="Matrix Definition" />
+        <SectionTitle>Matrix Definition</SectionTitle>
 
         <p class="font-mono">
             First of all, let's define the
@@ -48,7 +48,7 @@
 
 
 
-        <SectionTitle title="Elementary operations" />
+        <SectionTitle>Elementary operations</SectionTitle>
 
         <p class="font-mono">Let's implement the elementary operations on our matrix. Consider the following matrix :
         </p>
@@ -84,9 +84,10 @@
         <p class="font-mono">These operations are fundamental to linear algebra and are used in the Gaussian elimination
             algorithm.</p>
 
-        <SectionTitle title="Let's code!" />
+        <SectionTitle>Let's code!</SectionTitle>
 
-        <AboutBox title="TODO.txt">TBA</AboutBox>
+        <UncompleteBox>I'll explain the process of implementing these operations in Rust - more coming soon...</UncompleteBox>
+
 
 
 
@@ -144,5 +145,6 @@ import LatexBox from '@/components/boxes/LatexBox.vue';
 import OperationBox from '@/components/boxes/OperationBox.vue';
 import PostHeader from '@/components/headers/PostHeader.vue';
 import CodeText from '@/components/text/CodeText.vue';
+import UncompleteBox from '@/components/boxes/UncompleteBox.vue';
 
 </script>
